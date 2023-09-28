@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PhoneBook" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <!-- dark mode -->
+    <!-- screen bg if dark mode on -->
+    <style name="SCREEN">
+        <item name="android:background">#232323</item>
+    </style>
+    <style name="TEXT">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="BUTTON">
+        <item name="android:background">#B9BABA</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="BUTTONIMG">
+        <item name="android:visibility">visible</item>
+    </style>
+    <style name="BUTTONDARKIMG">
+        <item name="android:visibility">invisible</item>
+    </style>
+</resources>
